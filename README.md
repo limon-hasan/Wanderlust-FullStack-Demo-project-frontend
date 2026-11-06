@@ -18,9 +18,9 @@ An immersive full-stack travel discovery and destination reservation platform bu
 
 This repository contains the client-side user interface, optimized for fast page loads, responsive navigation, and direct integration with the Wanderlust Express/MongoDB backend service.
 
-* **Live Frontend:** [wanderlust-frontend-livid.vercel.app](https://wanderlust-frontend-livid.vercel.app)
-* **Live API Backend:** [wanderlust-backend-green.vercel.app](https://wanderlust-backend-green.vercel.app)
-* **Backend Source Code:** [Wanderlust-FullStack-Demo-project-backend](https://github.com/limon-hasan/Wanderlust-FullStack-Demo-project-backend)
+- **Live Frontend:** [wanderlust-frontend-livid.vercel.app](https://wanderlust-frontend-livid.vercel.app)
+- **Live API Backend:** [wanderlust-backend-green.vercel.app](https://wanderlust-backend-green.vercel.app)
+- **Backend Source Code:** [Wanderlust-FullStack-Demo-project-backend](https://github.com/limon-hasan/Wanderlust-FullStack-Demo-project-backend)
 
 ---
 
@@ -49,6 +49,7 @@ This repository contains the client-side user interface, optimized for fast page
 
 ## 📁 Project Structure
 
+```text
 ├── public/                 # Static assets, logos, and images
 ├── src/
 │   ├── app/                # Next.js App Router pages and layouts
@@ -61,3 +62,66 @@ This repository contains the client-side user interface, optimized for fast page
 ├── components.json         # UI component schema configuration
 ├── package.json            # Scripts and project dependencies
 └── README.md               # Frontend documentation
+```
+
+---
+
+## 🚀 Getting Started Locally
+
+Follow these instructions to run the frontend client locally on your machine.
+
+### Prerequisites
+
+- **Node.js** (v18.x or higher recommended)
+- **npm**, **pnpm**, or **yarn**
+
+### 1. Clone the repository
+
+```bash
+git clone [https://github.com/limon-hasan/Wanderlust-FullStack-Demo-project-frontend.git](https://github.com/limon-hasan/Wanderlust-FullStack-Demo-project-frontend.git)
+cd Wanderlust-FullStack-Demo-project-frontend
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Setup environment variables
+
+Create a `.env.local` file in the root directory:
+
+```env
+NEXT_PUBLIC_API_BASE_URL=[https://wanderlust-backend-green.vercel.app](https://wanderlust-backend-green.vercel.app)
+```
+
+### 4. Run the development server
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+---
+
+## 📦 Scripts
+
+- `npm run dev` — Starts the Next.js local development server.
+- `npm run build` — Compiles and builds the production-ready bundle.
+- `npm run start` — Starts the production build server.
+- `npm run lint` — Runs ESLint checks across source code.
+
+---
+
+## 👨‍💻 Author
+
+**Maksudul Hasan Limon**
+- GitHub: [@limon-hasan](https://github.com/limon-hasan)
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
